@@ -1,0 +1,70 @@
+@import url(https: //fonts.googleapis.com/css2?family=Kanit:ital@1&family=Raleway:wght@500&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #42a169;
+}
+
+header {
+    width: 95%;
+    height: 150px;
+    left: 2.5%;
+    right: 2.5%;
+    position: relative;
+    background-color: #a1a142;
+    margin-top: 25px;
+}
+
+header p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 15px;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+h1 i {
+    color: #42a169;
+}
+
+section {
+    height: 1500px;
+    width: 100%;
+}
+
+.paper {
+    height: auto;
+    width: 50%;
+    background-image: url(../images/pexels-pixabay-235985.jpg);
+    left: 25%;
+    position: relative;
+}
+
+.paper p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+    color: white;
+}
+
+.left {
+    background-image: url(../images/piedestal.png);
+    background-repeat: no-repeat;
+    width: 23%;
+    height: 1500px;
+    float: left;
+}
